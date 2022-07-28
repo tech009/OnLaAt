@@ -26,6 +26,7 @@ class BirthdayCakeCandles {
             if (max<candles.get(i)){
                 max=candles.get(i);
                 count=1;
+                continue;
             }
             
             if (candles.get(i)==max)
