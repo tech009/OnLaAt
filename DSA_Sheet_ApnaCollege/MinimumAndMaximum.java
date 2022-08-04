@@ -8,6 +8,13 @@ Best Case number of comparisions: 1+n-2
 
 Approach 2: Tournament Method
 This is a divide and conquer method of solving min and max.
+
+T(n) = T(floor(n/2))+T(ceil(n/2))+2
+T(2) = 1
+T(1) = 0
+
+T(n) = 3n/2 - 2
+
 Pair MaxMin(array, array_size)
    if array_size = 1
       return element as both max and min
